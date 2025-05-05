@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: #f6fff4;
+}
+
+h1 {
+    color: #2d6a4f;
+}
+
+.species {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 200px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+#resultado {
+    margin-top: 1rem;
+    font-weight: bold;
+}
