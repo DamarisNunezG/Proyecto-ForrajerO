@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto 1 – Diagnóstico Forrajero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌱 Reto 1: Diagnóstico Forrajero</h1>
+    <p>Clasifica correctamente las especies forrajeras según su tipo, ciclo y uso. Cuando todas sean correctas, se mostrará la clave para avanzar al siguiente reto.</p>
+
+    <div id="quiz-container">
+        <div class="species">
+            <img src="graminea1.jpg" alt="Especie 1">
+            <label>Tipo:
+                <select class="tipo">
+                    <option value="">--</option>
+                    <option value="graminea">Gramínea</option>
+                    <option value="leguminosa">Leguminosa</option>
+                </select>
+            </label>
+            <label>Ciclo:
+                <select class="ciclo">
+                    <option value="">--</option>
+                    <option value="anual">Anual</option>
+                    <option value="perenne">Perenne</option>
+                </select>
+            </label>
+            <label>Uso:
+                <select class="uso">
+                    <option value="">--</option>
+                    <option value="pastoreo">Pastoreo</option>
+                    <option value="conservacion">Conservación</option>
+                    <option value="ambos">Ambos</option>
+                </select>
+            </label>
+        </div>
+
+        <!-- Añadir más especies copiando el bloque anterior -->
+
+        <button onclick="verificarRespuestas()">Verificar</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
